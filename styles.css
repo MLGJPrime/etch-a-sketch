@@ -3,13 +3,13 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: auto;
 }
+
 
 button {
     padding: 10px 20px;
@@ -17,17 +17,18 @@ button {
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    background-color: #98FB98;
-    color: #006400;
+    background-color: #5b4faa;
+    color: #FFFFFF;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #90EE90;
+    background-color: #4b4288;
 }
 
 .row {
     display: flex;
+    min-width: min-content;
 }
 
 .cell {
@@ -61,8 +62,12 @@ button.dark:hover {
     border-color: #f4f4f4;
 }
 
+#game-button {
+    margin-top: 20px;
+}
+
 #theme-button {
     position: fixed;
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 20px;
 }
