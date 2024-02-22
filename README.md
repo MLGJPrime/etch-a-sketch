@@ -10,4 +10,4 @@ Etch-A-Sketch is a simple web-based drawing application inspired by the classic 
 
 ## Usage
 
-To use Etch-A-Sketch, simply hover over the cells in the grid to draw. To change the grid size, click the "New Grid" button and enter the desired number of cells per side. To switch between light and dark themes, click the "Toggle Theme" button.
+To use Etch-A-Sketch, simply hover over the cells in the grid to draw. To change the grid size, click the "Change Grid Size" button and enter the desired number of cells per side. To switch between light and dark themes, click the "Toggle Dark Theme" button.
